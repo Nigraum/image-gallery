@@ -5,7 +5,6 @@ export default function App() {
   return(
     <>
       {/*<BrowserRouter> */}
-      <h1>Hello world!</h1>
         {/*<Routes> */}
 
 
