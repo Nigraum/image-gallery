@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Image from "./Image";
 
 export default function GetImages() {
   const [images, setImages] = useState([])
@@ -20,7 +21,7 @@ export default function GetImages() {
           <h1>Recommended for you</h1>
 
           <div>
-            {images.map ((image, index) => (
+            {images.map ((image) => (
               <Image key={image.id} {...image} />
             ))}
           </div>

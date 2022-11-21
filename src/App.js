@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes } from "react-router-dom";
-import GetImages from "./GetImages";
+import GetImages from "./components/GetImages";
 
 export default function App() {
   return(
