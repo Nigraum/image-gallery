@@ -20,7 +20,7 @@ export default function Image(props) {
               className="w-20 rounded-full shadow"
             />
 
-            <ul className="ml-3">
+            <ul className="ml-3 font-roboto">
               <li className="font-bold text-slate-800 mb-1">
                 {props.user.name}
               </li>
@@ -31,7 +31,7 @@ export default function Image(props) {
           </div>
 
           <div>
-            <ul className="text-slate-600 text-sm text-right">
+            <ul className="text-slate-600 text-sm text-right font-roboto">
               <li>
                 <a 
                 href={`https://instagram.com/${props.user.instagram_username}`} 

@@ -21,7 +21,7 @@ export default function GetImages() {
           Loading...
         </h2> 
         :
-        <section className="px-5 container mx-auto">
+        <section className="px-5 container mx-auto font-roboto">
           <h1 className="font-bold text-3xl md:text-4xl lg:text-6xl my-10 lg:mt-20 lg:mb-16 text-slate-800 capitalize">
             Recommended for you
           </h1>
