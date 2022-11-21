@@ -1,7 +1,7 @@
 export default function Image() {
   return (
     <>
-      <h2>Test image component</h2>
+      <h2 className="bg-red-700">Test image component</h2>
     </>
   )
 }

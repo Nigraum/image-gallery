@@ -16,7 +16,10 @@ export default function GetImages() {
 
   return (
     <>
-      {!images ? <h2>Loading...</h2> :
+      {!images ?
+      <h2 className="flex items-center justify-center h-screen">
+        Loading...
+      </h2> :
         <section>
           <h1>Recommended for you</h1>
 
